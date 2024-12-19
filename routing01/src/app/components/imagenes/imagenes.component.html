@@ -1,0 +1,8 @@
+<div class="centro">
+  <div *ngIf="imagenesService.valor">
+  <h1>JUEGOS CON IMAGENES</h1>
+  <button class="btn btn-primary" (click)="onLoadDiferencias()" >DIFERENCIAS</button>
+  <button class="btn btn-primary" (click)="onLoadPeliculas()">PELICULAS</button>
+  </div>
+  <router-outlet></router-outlet>
+</div>

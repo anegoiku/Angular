@@ -1,0 +1,26 @@
+<table class="table">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">NOMBRE</th>
+      <th scope="col">STOCK</th>
+      <th scope="col">PRECIO</th>
+      <th scope="col">URL AMIGABLE</th>
+      <th scope="col">IMAGEN</th>
+      <th scope="col">FECHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let postre of Postres">
+      <th scope="row">{{postre.id}}</th>
+      <td>{{postre.nombre}}</td>
+      <td>{{postre.stock}}</td>
+      <td>{{postre.precio}}</td>
+      <td>{{postre.url}}</td>
+      <td>
+        <img src="assets/img/{{postre.img}}" width="30px" class="img-fluid">
+      </td>
+      <td>{{postre.fecha}}</td>
+    </tr>
+  </tbody>
+</table>

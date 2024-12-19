@@ -1,0 +1,28 @@
+.centro{
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.numero{
+  background-color: grey;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  font-size: 120px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.btn{
+  margin: 5px;
+  height: 40px;
+  width: 60px;
+}
+
+.reset{
+  width: 80px;
+}

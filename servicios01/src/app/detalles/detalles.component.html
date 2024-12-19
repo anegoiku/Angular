@@ -1,0 +1,31 @@
+<div class="wrapper">
+  <div class="container">
+    <h1>DETALLES DEL CLIENTE SELECCIONADO</h1>
+    <form action="#" target="" method="get" name="formDatos">
+      <input type="hidden" name="id" id="id">
+
+      <div class="form-columns">
+
+        <div class="column">
+          <label for="nombre">NOMBRE</label>
+          <input type="text" name="nombre" id="nombre" [(ngModel)]="persona.nombre">
+
+          <label for="apellido">APELLIDO</label>
+          <input type="text" name="apellido" id="apellido" [(ngModel)]="persona.apellido">
+        </div>
+
+        <div class="column">
+          <label for="edad">EDAD</label>
+          <input type="text" name="edad" id="edad" [(ngModel)]="persona.edad">
+
+          <label for="cantidad">CANTIDAD</label>
+          <input type="text" name="cantidad" id="cantidad" [(ngModel)]="persona.cantidad">
+        </div>
+      </div>
+
+      <div class="button-container">
+        <input type="submit" name="enviar" value="Enviar Datos" (click)="modificarCliente()">
+      </div>
+    </form>
+  </div>
+</div>

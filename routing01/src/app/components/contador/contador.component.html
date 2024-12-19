@@ -1,0 +1,25 @@
+<div class="centro">
+  <h1>CONTADOR</h1>
+  <div class="numero lead">
+    <p>{{numero}}</p>
+  </div>
+  <div class="botones">
+    <button class="btn btn-primary" (click)="menos100()">-100</button>
+    <button class="btn btn-primary" (click)="menos50()">-50</button>
+    <button class="btn btn-primary" (click)="menos20()">-20</button>
+    <button class="btn btn-primary" (click)="menos10()">-10</button>
+    <button class="btn btn-primary" (click)="menos5()">-5</button>
+    <button class="btn btn-primary" (click)="menos2()">-2</button>
+    <button class="btn btn-primary" (click)="menos1()">-1</button>
+
+    <button class="btn btn-secondary reset" (click)="reset()">RESET</button>
+
+    <button class="btn btn-primary" (click)="mas1()">+1</button>
+    <button class="btn btn-primary" (click)="mas2()">+2</button>
+    <button class="btn btn-primary" (click)="mas5()">+5</button>
+    <button class="btn btn-primary" (click)="mas10()">+10</button>
+    <button class="btn btn-primary" (click)="mas20()">+20</button>
+    <button class="btn btn-primary" (click)="mas50()">+50</button>
+    <button class="btn btn-primary" (click)="mas100()">+100</button>
+  </div>
+</div>

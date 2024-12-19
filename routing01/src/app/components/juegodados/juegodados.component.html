@@ -1,0 +1,11 @@
+<div class="centro">
+  <h1>JUEGO DE DADOS</h1>
+  <p class="lead">Los tres dados tienen que tener el mismo numero para ganar!</p>
+
+  <div class="dados">
+      <app-dado *ngFor="let dado of dados" [numero]="dado"></app-dado>
+  </div>
+  <button class="btn btn-primary" (click)="tirarDados()">Tirar dados</button>
+  <h3 class="mensaje lead">{{mensaje}}</h3>
+  <p>hola</p>
+</div>

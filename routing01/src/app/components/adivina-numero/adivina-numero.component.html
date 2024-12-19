@@ -1,0 +1,10 @@
+<div class="centro">
+  <h1>ADIVINA EL NUMERO</h1>
+  <button class="generar btn btn-primary" (click)="generarNumero()">Generar numero</button>
+  <p class="mensaje lead">{{mensaje}}</p>
+  <div class="intentar input-group">
+    <input class="form-control" type="number" id="intento" min="1" max="100" />
+    <button class="btn btn-outline-primary" (click)="intento()">Intentar</button>
+  </div>
+
+</div>

@@ -1,0 +1,17 @@
+.centro{
+  text-align: center;
+  overflow: hidden;
+}
+img{
+  width: 100%;
+  margin: 10px;
+}
+.fotos{
+  display: flex;
+  flex-direction: column;
+  & .btn{
+    width:200px;
+    justify-content: flex-start;
+  }
+}
+

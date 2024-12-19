@@ -1,0 +1,73 @@
+<div class="centro">
+  <div class="row">
+    <div class="col-1">
+      <div class="peli">
+        <div class="flex">
+          <div class="imagen">
+            <img src="../../../assets/img/frozen.png">
+          </div>
+          <div class="intentar input-group">
+            <input #frozen class="form-control" type="text" id="frozen" />
+            <button class="btn btn-outline-primary" (click)="frozenMetodo(frozen.value)">Intentar</button>
+          </div>
+        </div>
+        <p class="mensaje lead">{{mensajeFrozen}}</p>
+      </div>
+
+      <div class="peli">
+        <div class="flex">
+          <div class="imagen">
+            <img src="../../../assets/img/harryPotter.png">
+          </div>
+          <div class="intentar input-group">
+            <input #harry class="form-control" type="text" id="harryPotter" />
+            <button class="btn btn-outline-primary" (click)="harryPotterMetodo(harry.value)">Intentar</button>
+          </div>
+        </div>
+        <p class="mensaje lead">{{mensajeHarry}}</p>
+      </div>
+  </div>
+
+    <div class="col-2">
+      <div class="peli">
+        <div class="flex">
+          <div class="imagen">
+            <img src="../../../assets/img/kungfuPanda.png">
+          </div>
+          <div class="intentar input-group">
+            <input #panda class="form-control" type="text" id="kungFuPanda" />
+            <button class="btn btn-outline-primary" (click)="kungFuPandaMetodo(panda.value)">Intentar</button>
+          </div>
+        </div>
+        <p class="mensaje lead">{{mensajePanda}}</p>
+      </div>
+
+      <div class="peli">
+        <div class="flex">
+          <div class="imagen">
+            <img src="../../../assets/img/laCenicienta.png">
+          </div>
+          <div class="intentar input-group">
+            <input #cenicienta class="form-control" type="text" id="laCenicienta" />
+            <button class="btn btn-outline-primary" (click)="laCenicientaMetodo(cenicienta.value)">Intentar</button>
+          </div>
+        </div>
+        <p class="mensaje lead">{{mensajeCenicienta}}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="peli">
+    <div class="flex">
+      <div class="imagen">
+        <img src="../../../assets/img/up.png">
+      </div>
+      <div class="intentar input-group">
+        <input #up class="form-control" type="text" id="up" />
+        <button class="btn btn-outline-primary" (click)="upMetodo(up.value)">Intentar</button>
+      </div>
+    </div>
+    <p class="mensaje lead">{{mensajeUp}}</p>
+  </div>
+
+</div>

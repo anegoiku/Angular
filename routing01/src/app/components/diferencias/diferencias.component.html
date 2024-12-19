@@ -1,0 +1,10 @@
+<div class="fotos">
+  <button class="btn btn-danger" (click)="verResultado()" *ngIf="vResultado == false"> Ver Resultado</button>
+  <button class="btn btn-danger" (click)="ocultarResultado()" *ngIf="vResultado == true"> Ocultar Resultado</button>
+  <div class="centro" *ngIf="vResultado == false">
+    <img src="../../../assets/img/diferencias.png">
+  </div>
+  <div class="centro" *ngIf="vResultado == true">
+    <img src="../../../assets/img/resultado.jpg">
+  </div>
+</div>
